@@ -1,0 +1,6 @@
+belaweb >= 0.13.1a1
+# The following packages are optional but highly recommended
+# defusedxml >= 0.7.1
+# lxml>=4.7.1
+# nltk >= 3.6.7
+# jieba==0.42.1
