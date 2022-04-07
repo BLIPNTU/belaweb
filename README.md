@@ -16,7 +16,7 @@ pip install belaweb
 
 ## Development
 
-To run belaweb locally for testing, there is a minmal WSGI application available at https://github.com/letuananh/belaweb
+To run belaweb locally for testing, there is a minimal WSGI application available at https://github.com/letuananh/belaweb
 
 ```bash
 # activate a Python (virtual) environment with belaweb package installed
