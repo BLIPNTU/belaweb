@@ -5,13 +5,13 @@ BELA Dashboard - Web-based user interface for visualising and analysing BELA tra
 
 **belaweb** is available on [PyPI](https://pypi.org/project/belaweb/) and can be installed using pip:
 
-```
+```bash
 pip install belaweb
 ```
 
 To run belaweb locally for debugging:
 
-```
+```bash
 # activate a Python (virtual) environment with belaweb package installed
 cd belaweb-wsgi-min
 ./manage.py runserver
