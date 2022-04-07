@@ -1,5 +1,10 @@
-# belaweb
-BELA Dashboard - Web-based user interface for visualising and analysing BELA transcripts
+# BELA Dashboard
+
+BELA Dashboard is a web-based user interface for visualising and analysing BELA transcripts.
+To learn how to create BELA transcripts, please refer to the [BELA convention documentation](https://blipntu.github.io/belacon/).
+
+BELA Dashboard uses the [Python bela package](https://github.com/letuananh/bela) to process transcripts under the hood.
+Users who want to perform batch processing or data extraction can use [bela](https://github.com/letuananh/bela) package directly using Python scripts.
 
 ## Installation
 
@@ -9,7 +14,9 @@ BELA Dashboard - Web-based user interface for visualising and analysing BELA tra
 pip install belaweb
 ```
 
-To run belaweb locally for debugging:
+## Development
+
+To run belaweb locally for testing, there is a minmal WSGI application available at https://github.com/letuananh/belaweb
 
 ```bash
 # activate a Python (virtual) environment with belaweb package installed
